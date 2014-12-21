@@ -16,9 +16,4 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #  sibling directory to the current directory for this Vagrantfile.
   config.vm.synced_folder "../where_you_at_server", "/server"
 
-  # Special configuration options to Virtualbox
-  config.vm.provider "virtualbox" do |vb|
-    vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
-  end
-
 end
