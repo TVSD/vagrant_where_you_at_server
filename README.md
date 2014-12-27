@@ -9,7 +9,7 @@ To use this project, you must first have Vagrant installed and working. Please v
 Before running, this Vagrant project and the [where_you_at_server](https://github.com/TVSD/where_you_at_server) must be cloned into the correct locations.
 
 1. Create a `server` folder which will contain this project & the where_you_at_server project.
-2. In the `server` folder, clone the `where_you_at_server` project. You should now have a `server\where_you_at_server` folder.
+2. In the `server` folder, clone the `where_you_at_server` project. You should now have a `server\where_you_at_server` folder. The cloning operation is done on a command line prompt using the command "git clone https://github.com/TVSD/where_you_at_server.git". For a Windows PC, install Git Extensions and open a GitBash window from the tools pull down. Change directory to the server folder, then run the git clone command.
 3. In the `server` folder, clone this project. You should now have a `server\vagrant_where_you_at_server` folder.
 4. You should now have the following directory structure:
 
