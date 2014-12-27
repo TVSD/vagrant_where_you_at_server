@@ -18,7 +18,9 @@ Before running, this Vagrant project and the [where_you_at_server](https://githu
      where_you_at_server\
      vagrant_where_you_at_server\
    ```
-5. Be sure to copy `where_you_at_server\config.js.example` to `where_you_at_server\config.js` and edit the `where_you_at_server\config.js` file with the appropriate settings for you installation.
+5. Copy `where_you_at_server\config.js.example` to `where_you_at_server\config.js` and edit the `where_you_at_server\config.js` file with the appropriate settings for your installation. These two lines: exports.clientId = "APP_SERVER_CLIENT_ID";
+exports.clientSecret = "APP_SERVER_CLIENT_SECRET";
+are a question at this time.
 
 ## Running the Node project (quick)
 1. `vagrant up` in the `server\vagrant_where_you_at_server` folder.
